@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   const Text('Capture anything',
                     style: TextStyle(
                       fontSize: 24,
-                      fontWeight: FontWeights.medium,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   const SizedBox(height: 32),
