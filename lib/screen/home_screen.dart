@@ -4,12 +4,12 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:tuple/tuple.dart';
 
-import 'package:flt_keep/icons.dart' show AppIcons;
-import 'package:flt_keep/models.dart' show CurrentUser, Note, NoteState, NoteStateX, NoteFilter;
-import 'package:flt_keep/services.dart' show notesCollection, CommandHandler;
-import 'package:flt_keep/styles.dart';
-import 'package:flt_keep/utils.dart';
-import 'package:flt_keep/widgets.dart' show AppDrawer, NotesGrid, NotesList;
+import 'package:note_taking_app/models.dart' show CurrentUser, Note, NoteState, NoteStateX, NoteFilter;
+import 'package:note_taking_app/icons.dart' show AppIcons;
+import 'package:note_taking_app/services.dart' show notesCollection, CommandHandler;
+import 'package:note_taking_app/styles.dart';
+import 'package:note_taking_app/utils.dart';
+import 'package:note_taking_app/widgets.dart' show AppDrawer, NotesGrid, NotesList;
 
 /// Home screen, displays [Note] grid or list.
 class HomeScreen extends StatefulWidget {
