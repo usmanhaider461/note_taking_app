@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flt_keep/icons.dart';
-import 'package:flt_keep/models.dart' show CurrentUser, Note, NoteState, NoteStateX;
-import 'package:flt_keep/services.dart';
-import 'package:flt_keep/styles.dart';
-import 'package:flt_keep/widgets.dart';
+import 'package:note_taking_app/icons_serve.dart';
+import 'package:note_taking_app/models.dart' show CurrentUser, Note, NoteState, NoteStateX;
+import 'package:note_taking_app/services.dart';
+import 'package:note_taking_app/styles.dart';
+import 'package:note_taking_app/widgets.dart';
 
 /// The editor of a [Note], also shows every detail about a single note.
 class NoteEditor extends StatefulWidget {

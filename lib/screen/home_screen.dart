@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:tuple/tuple.dart';
 
 import 'package:note_taking_app/models.dart' show CurrentUser, Note, NoteState, NoteStateX, NoteFilter;
-import 'package:note_taking_app/icons.dart' show AppIcons;
+import 'package:note_taking_app/icons_serve.dart' show AppIcons;
 import 'package:note_taking_app/services.dart' show notesCollection, CommandHandler;
 import 'package:note_taking_app/styles.dart';
 import 'package:note_taking_app/utils.dart';

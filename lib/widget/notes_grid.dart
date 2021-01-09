@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flt_keep/models.dart' show Note;
+import 'package:note_taking_app/models.dart' show Note;
 
 import 'note_item.dart';
 
