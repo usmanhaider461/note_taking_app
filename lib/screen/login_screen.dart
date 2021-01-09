@@ -143,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
     child: Text(_errorMessage,
       style: const TextStyle(
         fontSize: 14,
-        color: Colors.lightGreenAccent,
+        color: kErrorColorLight,
       ),
     ),
   );
@@ -188,8 +188,8 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Future<AuthResult> _doEmailSignIn(String email, String password, {bool signUp = false}) => (signUp
-      ? _auth.createUserWithEmailAndPassword(email: email, password: password)
-      : _auth.signInWithEmailAndPassword(email: email, password: password)
+    ? _auth.createUserWithEmailAndPassword(email: email, password: password)
+    : _auth.signInWithEmailAndPassword(email: email, password: password)
   ).catchError((e) {
     if (e is PlatformException && e.code == 'ERROR_USER_NOT_FOUND') {
       return _doEmailSignIn(email, password, signUp: true);
